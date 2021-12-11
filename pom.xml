@@ -3,6 +3,12 @@
   <groupId>DBS01</groupId>
   <artifactId>Dbs01</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+  	<maven.compiler.source>11</maven.compiler.source>
+  	<maven.compiler.target>11</maven.compiler.target>
+  </properties>
+  
   <dependencies>
   	<dependency>
   		<groupId>org.apache.spark</groupId>
