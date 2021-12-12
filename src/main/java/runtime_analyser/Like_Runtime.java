@@ -9,8 +9,8 @@ import org.joda.time.LocalTime;
 
 public class Like_Runtime {
 	public static void main(String args[]) {
-		String filterpath = "C:\\Users\\PC\\Documents\\Uni\\WS 21-22\\Forschungsmodul Datenbanken\\Hatespeech Listen\\Liste Beleidigungen - Ethnic.csv";
-		String tweetpath = "C:\\Users\\PC\\Documents\\Uni\\WS 21-22\\Forschungsmodul Datenbanken\\Twitter Testdata\\Auszug json EM\\Stichproben\\recorded-cascades1623346911099.json";
+		String filterpath = "FilterPath";
+		String tweetpath = "TweetPath";
 		
 		LocalTime timestart = LocalDateTime.now().toLocalTime(); //Startzeit
 		
