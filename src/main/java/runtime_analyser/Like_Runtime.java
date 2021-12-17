@@ -14,7 +14,7 @@ public class Like_Runtime {
 		
 		LocalTime timestart = LocalDateTime.now().toLocalTime(); //Startzeit
 		
-		SparkConf sparkConf = new SparkConf().setAppName("Stichprobentest");
+		SparkConf sparkConf = new SparkConf().setAppName("Runtimetest");
 		sparkConf.setMaster("local");
 		sparkConf.set("spark.driver.host", "localhost");
 		
